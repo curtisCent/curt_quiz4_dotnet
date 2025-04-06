@@ -39,6 +39,10 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+
 - task: NuGetCommand@2
   inputs:
     command: 'push'
