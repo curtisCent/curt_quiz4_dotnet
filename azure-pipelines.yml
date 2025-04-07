@@ -43,7 +43,7 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'd8e5a01d-b0fb-4e5f-84e0-2e8d9b164a34'
+    publishVstsFeed: '0b0337bd-12b6-48f1-9fb7-39080f8d7978/0cdb528e-86b5-4b0b-b65b-53a4dd85ea4e'
 
 - task: VSTest@2
   inputs:
