@@ -1,4 +1,2 @@
-# For lab assignment 3
+# Quiz 4
 COMP 367
-
-Update
